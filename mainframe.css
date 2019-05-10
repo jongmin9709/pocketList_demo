@@ -1,0 +1,77 @@
+body{
+			background-color: lavenderblush;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+			
+		}
+		header{
+			padding: 20px;
+			align-self: center;
+		}
+		footer{
+			border-top: 1px solid purple;
+			text-align: center;
+			padding: 10px;
+		}
+		.content{
+			display: flex;
+		}
+		nav{
+			border-right: 1px solid purple;
+		}
+		.content nav{
+			flex-basis: 150px;
+			flex-shrink: 0;
+		}
+		h1{
+			display: inline;
+			text-align: center;
+		}
+		main{
+			width: 700px;
+			padding: 30px;
+			font-size: 30px;
+			height: 500px;
+		}
+		.mainscreen{
+			background-color: white;
+			border-radius: 30px;
+			margin: 20px;
+			align-self: center;
+			width: 1000px;
+			
+		}
+		ul.im1{
+			list-style-image: url("image1.png");
+			font-size: 20px;
+			line-height: 2.5;
+		}
+		a:link{color: palevioletred; text-decoration: none}
+		a:visited{color: purple}
+		a:hover{color: pink}
+		input.imabtn1{
+			background: url("image3.png") no-repeat;
+			width: 20px;
+			height: 20px;
+			cursor: pointer;
+			border: none;
+		}
+		input.imabtn2{
+			background: url("image1.png") no-repeat;
+			width: 20px;
+			height: 20px;
+			cursor: pointer;
+			border: none;
+		}
+		input.imabtn3{
+			background: url("my_location.png") no-repeat;
+			width: 30px;
+			height: 30px;
+			cursor: pointer;
+			border: none;
+		}
+		form{
+			padding-top: 15px;
+		}
